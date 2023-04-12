@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+#download_link {
+  display: none;
+}
+
+
+.urlField {
+  vertical-align: middle !important;
+  width: 500px;
+}
+
+
+@media (max-width:500px) {
+  .urlField {
+    width: 100%;
+  }
+
+
+  .convert_video_btn {
+    vertical-align: middle;
+    margin-left: 0;
+    margin-top: 20px !important;
+  }
+}
+
+.convert_video_btn {
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+
+.SubmitButton{
+  display: block !important;
+  margin: 0 auto !important;
+}

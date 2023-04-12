@@ -1,0 +1,26 @@
+{
+  "name": "ytconverter_microservice",
+  "version": "1.0.0",
+  "description": "YT COnverter server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "YouTube",
+    "Audio Converter"
+  ],
+  "author": "Juan Granja",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "glob-fs": "^0.1.7",
+    "ytdl-core": "^4.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "proxy": "http://localhost:3000"
+}
